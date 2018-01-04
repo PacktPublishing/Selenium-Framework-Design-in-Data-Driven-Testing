@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <!-- report theme -->
+        <!-- standard, dark -->
+        <theme>standard</theme>
+
+        <!-- document encoding -->
+        <!-- defaults to UTF-8 -->
+        <encoding>UTF-8</encoding>
+
+        <!-- protocol for script and stylesheets -->
+        <!-- defaults to https -->
+        <protocol>https</protocol>
+
+        <!-- title of the document -->
+        <documentTitle></documentTitle>
+
+        <!-- report name - displayed at top-nav -->
+        <reportName>
+            <![CDATA[
+            ]]>
+        </reportName>
+
+        <!-- location of charts in the test view -->
+        <!-- top, bottom -->
+        <testViewChartLocation>bottom</testViewChartLocation>
+
+        <!-- reportHeadline - displayed at top-nav -->
+        <reportHeadline></reportHeadline>
+
+        <!-- global date format override -->
+        <!-- defaults to yyyy-MM-dd -->
+        <dateFormat>MM-dd-yyyy</dateFormat>
+
+        <!-- global time format override -->
+        <!-- defaults to HH:mm:ss -->
+        <timeFormat>HH:mm:ss</timeFormat>
+
+        <!-- custom javascript -->
+        <scripts>
+            <![CDATA[
+                $(document).ready(function() {
+                    $('.waves-effect:nth-child(3) a:nth-child(1) i:nth-child(1)').click();
+                });
+            ]]>
+        </scripts>
+
+        <!-- custom style -->
+        <styles>
+            <![CDATA[
+                .extent { font-size: 12px; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; }
+                .nav-wrapper { background: linear-gradient(to left, white 0%, #1a75ff 100%); }
+                .side-nav.fixed.hide-on-med-and-down { background: linear-gradient(to top, white 0%, #1a75ff 100%); }
+                .logo-container { background: linear-gradient(to bottom, white 0%, #1a75ff 100%); }
+                .brand-logo { background: linear-gradient(to right, blue 0%, #1a75ff 100%); }
+                .label.suite-start-time { background: linear-gradient(to bottom, red 100%, red 100%); }
+                .s2:nth-child(3) .card-panel:nth-child(1) { background-color: #00af00; }
+                .s2:nth-child(4) .card-panel:nth-child(1) { background-color: #F7464A; }
+                .status.pass { color: green; }
+                .status.fail { color: red; }
+                .status.skip { color: #1e90ff; }
+                .test-status.skip { color: #1e90ff; }
+                .test-status.right.skip { color: #1e90ff; }
+                .label.others { background-color: #1e90ff; }
+                .teal-text > i:nth-child(1) { color: #1e90ff; }
+                .category-content .category-status-counts:nth-child(3) { background-color: #1e90ff; }
+                .yellow.darken-2 { background-color: #1e90ff !important; }
+            ]]>
+        </styles>
+    </configuration>
+</extentreports>

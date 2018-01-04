@@ -1,0 +1,200 @@
+{
+  "tc001_passionTeaCo": [
+    {
+      "rowID": "tc001_passionTeaCo.01",
+      "description": "Navigate Passion Tea Co 'Welcome' Page",
+      "menu": "Welcome",
+      "title": "Welcome"
+    },
+    {
+      "rowID": "tc001_passionTeaCo.02",
+      "description": "Navigate Passion Tea Co 'Our Passion' Page",
+      "menu": "Our Passion",
+      "title": "Our Passion"
+    },
+    {
+      "rowID": "tc001_passionTeaCo.03",
+      "description": "Navigate Passion Tea Co 'Menu' Page",
+      "menu": "Menu",
+      "title": "Menu"
+    },
+    {
+      "rowID": "tc001_passionTeaCo.04",
+      "description": "Navigate Passion Tea Co 'Let's Talk Tea' Page",
+      "menu": "Talk Tea",
+      "title": "Let's Talk Tea"
+    },
+    {
+      "rowID": "tc001_passionTeaCo.05",
+      "description": "Navigate Passion Tea Co 'Check Out' Page",
+      "menu": "Check Out",
+      "title": "Check Out"
+    }
+  ],
+
+  "tc002_passionTeaCo": [
+    {
+      "rowID": "tc002_passionTeaCo.01",
+      "description": "Verify Image Source 'TEA CUP'",
+      "img": "TEA_CUP",
+      "src": "http://nebula.wsimg.com/7cbbd331e278a100b443a12aa4cce77b?AccessKeyId=7ECBEB9592E2269F1812&disposition=0&alloworigin=1"
+    },
+    {
+      "rowID": "tc002_passionTeaCo.02",
+      "description": "Verify Image Source 'HERBAL TEA'",
+      "img": "HERBAL_TEA",
+      "src": "http://nebula.wsimg.com/d892360c0e73575efa3e5307c619db41?AccessKeyId=7ECBEB9592E2269F1812&disposition=0&alloworigin=1"
+    },
+    {
+      "rowID": "tc002_passionTeaCo.03",
+      "description": "Verify Image Source 'LOOSE TEA'",
+      "img": "LOOSE_TEA",
+      "src": "http://nebula.wsimg.com/18f9b21e513a597e4b8d4c805321bbe3?AccessKeyId=7ECBEB9592E2269F1812&disposition=0&alloworigin=1"
+    },
+    {
+      "rowID": "tc002_passionTeaCo.04",
+      "description": "Verify Image Source 'FLAVORED TEA'",
+      "img": "FLAVORED_TEA",
+      "src": "http://nebula.wsimg.com/d0554952ea0bea9e79bf01ab564bf666?AccessKeyId=7ECBEB9592E2269F1812&disposition=0&alloworigin=1"
+    },
+    {
+      "rowID": "tc002_passionTeaCo.05",
+      "description": "Verify Image Source 'PASSION TEA CO'",
+      "img": "PASSION_TEA_CO",
+      "src": "http://nebula.wsimg.com/01e56eb76d18b60c5fb3dcf451c080a1?AccessKeyId=7ECBEB9592E2269F1812&disposition=0&alloworigin=1"
+    },
+    {
+      "rowID": "tc002_passionTeaCo.06",
+      "description": "Verify Image Source 'LEAF'",
+      "img": "LEAF",
+      "src": "http://nebula.wsimg.com/ab7db4b80e0c0644f5f9226f2970739b?AccessKeyId=7ECBEB9592E2269F1812&disposition=0&alloworigin=1"
+    },
+    {
+      "rowID": "tc002_passionTeaCo.07",
+      "description": "Verify Image Source 'ORGANIC'",
+      "img": "ORGANIC",
+      "src": "http://nebula.wsimg.com/cd390673d46bead889c368ae135a6ec2?AccessKeyId=7ECBEB9592E2269F1812&disposition=0&alloworigin=1"
+    }
+  ],
+
+  "tc003_passionTeaCo": [
+    {
+      "rowID": "tc003_passionTeaCo.01",
+      "description": "Verify Span Text 'See our line of organic teas.'",
+      "pattern": "See our line",
+      "text": "See our line of organic teas."
+    },
+    {
+      "rowID": "tc003_passionTeaCo.02",
+      "description": "Verify Span Text 'Tea of the month club'",
+      "pattern": "month club",
+      "text": "Tea of the month club"
+    },
+    {
+      "rowID": "tc003_passionTeaCo.03",
+      "description": "Verify Span Text 'It's the gift that keeps on giving all year long.'",
+      "pattern": "gift that keeps on giving",
+      "text": "It's the gift that keeps on giving all year long."
+    },
+    {
+      "rowID": "tc003_passionTeaCo.04",
+      "description": "Verify Span Text 'For more than 25 years...'",
+      "pattern": "For more than 25 years, Passion Tea Company has revolutionized the tea industry",
+      "text": "For more than 25 years, Passion Tea Company has revolutionized the tea industry by letting our customers create a blend that combines their favorite herbs and spices. We offer thousands of natural flavors from all over the world and want you to have the opportunity to create a tea, and call it yours! We proudly partner with seleniumframework.com to help them use our website for Continuous Test Automation practice exercises "
+    },
+    {
+      "rowID": "tc003_passionTeaCo.05",
+      "description": "Verify Span Text 'Herbal Tea'",
+      "pattern": "Herbal Tea",
+      "text": "Herbal Tea"
+    },
+    {
+      "rowID": "tc003_passionTeaCo.06",
+      "description": "Verify Span Text 'Loose Tea'",
+      "pattern": "Loose Tea",
+      "text": "Loose Tea"
+    },
+    {
+      "rowID": "tc003_passionTeaCo.07",
+      "description": "Verify Span Text 'Flavored Tea'",
+      "pattern": "Flavored Tea",
+      "text": "Flavored Tea."
+    }
+  ],
+
+  "tc004_passionTeaCo": [
+    {
+      "rowID": "tc004_passionTeaCo.01",
+      "description": "Verify Heading Text 'We're passionate about tea.'",
+      "pattern": "passionate about tea",
+      "text": "We're passionate about tea. "
+    }
+  ],
+
+  "tc005_passionTeaCo": [
+    {
+      "rowID": "tc005_passionTeaCo.01",
+      "description": "Verify Paragraph Text 'Copyright...'",
+      "pattern": "Copyright",
+      "text": "Copyright Selenium Practice Website. All rights reserved."
+    }
+  ],
+
+  "tc006_passionTeaCo": [
+    {
+      "rowID": "tc006_passionTeaCo.01",
+      "description": "Verify Menu Link Text 'MENU'",
+      "element": "MENU",
+      "title": "Menu"
+    },
+    {
+      "rowID": "tc006_passionTeaCo.02",
+      "description": "Verify Menu Link Text 'MORE 1'",
+      "element": "MORE_1",
+      "title": "Menu"
+    },
+    {
+      "rowID": "tc006_passionTeaCo.03",
+      "description": "Verify Menu Link Text 'MORE 2'",
+      "element": "MORE_2",
+      "title": "Menu"
+    },
+    {
+      "rowID": "tc006_passionTeaCo.04",
+      "description": "Verify Menu Link Text 'HERBAL TEA'",
+      "element": "HERBAL_TEA",
+      "title": "Menu"
+    },
+    {
+      "rowID": "tc006_passionTeaCo.05",
+      "description": "Verify Menu Link Text 'LOOSE TEA'",
+      "element": "LOOSE_TEA",
+      "title": "Menu"
+    },
+    {
+      "rowID": "tc006_passionTeaCo.06",
+      "description": "Verify Menu Link Text 'FLAVORED TEA'",
+      "element": "FLAVORED_TEA",
+      "title": "Menu"
+    },
+    {
+      "rowID": "tc006_passionTeaCo.07",
+      "description": "Verify Menu Link Text 'SEE COLLECTION 1'",
+      "element": "SEE_COLLECTION1",
+      "title": "Menu"
+    },
+    {
+      "rowID": "tc006_passionTeaCo.08",
+      "description": "Verify Menu Link Text 'SEE COLLECTION 2'",
+      "element": "SEE_COLLECTION2",
+      "title": "Menu"
+    },
+    {
+      "rowID": "tc006_passionTeaCo.09",
+      "description": "Verify Menu Link Text 'SEE COLLECTION 3'",
+      "element": "SEE_COLLECTION3",
+      "title": "Menu"
+    }
+  ]
+}
+

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Passion_Tea_Company_Test_Suite" preserve-order="true" parallel="false" thread-count="1" verbose="2">
+
+    <!--  test groups -->
+    <groups>
+        <run>
+            <include name = "PASSION_TEA" />
+            <exclude name = "" />
+        </run>
+    </groups>
+
+    <!--  test listeners -->
+    <listeners>
+        <listener class-name="com.framework.ux.utils.chapter10.TestNG_ConsoleRunner" />
+        <listener class-name="com.framework.ux.utils.chapter10.ExtentTestNGIReporterListener" />
+    </listeners>
+
+    <!--  suite parameters -->
+    <parameter name="environment" value="local" />
+
+    <!--  tests -->
+    <test name="Passion Tea Co Test - Chrome">
+        <!-- test parameters -->
+        <parameter name="browser" value="chrome" />
+        <parameter name="platform" value="Windows 7" />
+        <!--<parameter name="includePattern" value="" />
+        <parameter name="excludePattern" value="" />-->
+
+        <classes>
+            <class name="com.framework.ux.utils.chapter10.PassionTeaCoTest" />
+        </classes>
+    </test>
+
+    <test name="Passion Tea Co Test - Firefox">
+        <!-- test parameters -->
+        <parameter name="browser" value="firefox" />
+        <parameter name="platform" value="Windows 7" />
+        <!--<parameter name="includePattern" value="." />
+        <parameter name="excludePattern" value="" />-->
+
+        <classes>
+            <class name="com.framework.ux.utils.chapter10.PassionTeaCoTest" />
+        </classes>
+    </test>
+
+    <test name="Passion Tea Co Test - IE11">
+        <!-- test parameters -->
+        <parameter name="browser" value="internet explorer" />
+        <parameter name="platform" value="Windows 7" />
+        <!--<parameter name="includePattern" value="" />
+        <parameter name="excludePattern" value="" />-->
+
+        <classes>
+            <class name="com.framework.ux.utils.chapter10.PassionTeaCoTest" />
+        </classes>
+    </test>
+
+</suite>
