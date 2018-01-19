@@ -29,7 +29,7 @@ The code will look like the following:
 
 * [Mastering Selenium WebDriver](https://www.packtpub.com/web-development/mastering-selenium-webdriver?utm_source=GitHub&utm_medium=repo&utm_campaign=9781784394356)
 
-* [Mastering Selenium WebDriver](https://www.packtpub.com/application-development/learning-selenium-testing-tools-third-edition?utm_source=GitHub&utm_medium=repo&utm_campaign=9781784396497)
+* [Learning Selenium Testing Tools - Third Edition](https://www.packtpub.com/application-development/learning-selenium-testing-tools-third-edition?utm_source=GitHub&utm_medium=repo&utm_campaign=9781784396497)
 
 
 
